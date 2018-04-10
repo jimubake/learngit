@@ -1,0 +1,18 @@
+git version
+mkdir learngit
+cd learngit/
+git init
+git config --global user.email "@"
+git config --global user.name
+git branch
+
+git log 
+git reflog
+git reset --hard “commit id”
+git reset --hard HEAD^ HEAD~10
+
+git checkout -- file 丢弃工作区的文件，同步文件到最近一次git add 或者git commit的状态
+
+git checkout branchName 切换分支
+
+git reset HEAD file 是staged的文件编程unstaged
