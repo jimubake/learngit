@@ -1,0 +1,10 @@
+- BIOS - MBR - BootLoader(grub - 选择内核版本) - kernel - systemd/init - 系统初始化 - shell
+  - grub: /boot/grub2/grub.cfg,  grub2-editenv list
+  - kernel: uname -r
+  - centos6: init
+    - cd /etc/rc.d, ls
+  - centos7: systemd
+    - cd /etc/systemd/system
+    - cd /usr/lib/systemd/system
+- example:
+  - file /sbin/grub2-mkconfig
